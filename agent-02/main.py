@@ -21,10 +21,10 @@ def main():
         {"A": Square(0, 0), "B": Square(1, 1)},
         {"A": Square(0, 1), "B": Square(1, 0)},
         {"A": Square(0, 1), "B": Square(1, 1)},
-        {"A": Square(1, 0), "B": Square(0, 0)},
-        {"A": Square(1, 0), "B": Square(0, 1)},
-        {"A": Square(1, 1), "B": Square(0, 0)},
-        {"A": Square(1, 1), "B": Square(0, 1)},
+        {"B": Square(1, 0), "A": Square(0, 0)},
+        {"B": Square(1, 0), "A": Square(0, 1)},
+        {"B": Square(1, 1), "A": Square(0, 0)},
+        {"B": Square(1, 1), "A": Square(0, 1)},
     ]
      
     env = Environment(environment_list, 0)
